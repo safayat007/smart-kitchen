@@ -20,8 +20,8 @@ The primary objective of this project are to :
 # Schematics : 
 ![Schematics](smart-kitchen.jpg)
 # Code : 
-[Code for Arduino](Smart_Kitchen_Arduino.ino)
-[Code for ESP](Smart_Kitchen_ESP.ino)
+* [Code for Arduino](Smart_Kitchen_Arduino.ino)
+* [Code for ESP](Smart_Kitchen_ESP.ino)
 # How it works : 
 When gas leakage of a detectable quantity capable of causing explosion which is sensed by the MQ-6 sensor, an analogue signal is send to the arduino from the sensor. For a detectable gas leakage quantity a digital high (1) is transmitted while a digital low(0) is transmitted for a non detectable quantity. This quantized high signal turns on a buzzer to alert neighbour of possible danger so they can react to diffuse the situation. The signal also turns on an LED to show danger.An automatically exhaust fan also turns on to exhaust the harmful gas from the kitchen.
 Besides ,  we can also control the electrical components of the kitchen such as light,fan,etc. over a web server  .
